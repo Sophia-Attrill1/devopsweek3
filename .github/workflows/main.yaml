@@ -15,7 +15,7 @@ jobs:
         run: npm install --only=dev
       - name: Run ESLint
         run: npm run lint
-      - name : Run Prettier
+      - name: Run Prettier
         run: npx prettier --write .
       - name: Run types
         run: npm run types
